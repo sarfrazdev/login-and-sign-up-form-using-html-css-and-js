@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Why\ Textbooks\ And\ Education\ Are\ To\ Blame\ For\ Fake\ News.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* background: linear-gradient rgba(16, 211, 72, 0.5); */;
+}
+.logo{
+    display: flex;
+    line-height: 70px;
+    margin-left: 25px;
+    font-size: 3rem;
+    color: #fff;
+}
+    
+.navbar{
+    position: fixed;
+    background:linear-gradient(rgb(125, 192, 214),rgb(91, 88, 88));
+    position: absolute;
+    /* border: 2px solid red; */
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+#nav{
+    display: flex;
+    margin-left: 890px;
+    gap: 90px;
+    line-height: 70px;
+}
+  
+#nav li {
+    list-style: none;
+}
+#nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+img{
+    position: absolute;
+    margin-top:-1PX;
+    margin-left: -1PX;
+    display: flex;
+    height: 453px;
+    width: 702px;
+ 
+}
+.close{
+    margin-left: 370px;
+    font-size: 2rem;
+    color: rgb(90, 77, 77);
+    cursor: pointer;
+
+}
+.close:hover{
+    color: red;
+    cursor: pointer;
+}
+.reg{
+    position: absolute;
+    background: #fff;
+    margin-top:250PX;
+    margin-left: 100PX;
+    height: 450px;
+    width: 1200px;
+
+}
+.signin{
+    position: absolute;
+    margin-left: 800px;
+}
+i{
+    color: black;
+}
+.signup{
+    position: absolute;
+    display: none;
+}
+#si{
+    margin-top: 60px;
+    margin-left: 50px;
+    
+      /* display: none;  */
+}
+.heading{
+    position: absolute;
+    margin-top: -60px;
+    margin-left:100px;
+
+}
+input{
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    border: inset;
+}
+#p{
+    font-size: 18px;
+    color:navy;
+}
+#lo{
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: 16px;
+}
+#su{
+    position: absolute;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    color: rgb(18, 214, 220);
+    cursor: pointer;
+}
+#su:hover{
+    color: red;
+    text-decoration: underline;
+}
+#d{
+    font-size: 18px;
+    color:navy;
+
+}
+.signup input{
+    
+    width: 250px;
+    margin-top: 18px;
+    margin-left: 50px;
+}#heading{
+  margin-left: 110px;
+
+}
+#btn2{
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: 16px;
+    margin-left: 50px;
+
+}
+#mbtn2{
+    position: absolute;
+    border: none;
+    font-size: 20px;
+    border: none;
+    margin-left: 45px;
+    color: rgb(18, 214, 220);
+    cursor: pointer;
+
+}
+#mbtn2:hover{
+    color: red;
+    text-decoration: underline;
+}
